@@ -9,6 +9,7 @@
 .loader{
     display: flex;
     z-index: -1;
+    height: 100vh;
 }
 .loader .bar{
     background-color: #001414;
