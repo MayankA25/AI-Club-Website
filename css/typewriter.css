@@ -127,9 +127,13 @@ main .join-us{
 }
 
 .container-2 .timeline .event img{
-    border-radius: 40px;
+    border-radius: 2vw;
     margin: 1vw 0;
     width: 100%;
+}
+
+.container-2 .timeline .event img:hover{
+    transform: scale(1.1);
 }
 
 
@@ -202,4 +206,99 @@ main .join-us{
     background-color: #FFF1DB;
     transform: translateX(3.50vw);
 }
+
+
+
+
+.upcoming-events{
+    background-color: black;
+    padding: 2vw 0;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+.upcoming-events h1{
+    font-weight: 900;
+    font-size: 3vw;
+    text-align: center;
+    cursor: default;
+    padding: 5vw 0 0 0;
+}
+.upcoming-events h1:hover{
+    transform: rotate(2deg);
+    font-size: 3.5vw;
+    color: #F2E5BF;
+}
+.upcoming-events .events{
+    width: 70%;
+    margin: 2vw auto;
+    /* position: relative; */
+}
+
+.upcoming-events .events .event{
+    position: relative;
+    margin: 5vw 0;
+    border: 2px solid rgba(255, 255, 255,0.4);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(26px);
+    border-radius: 0.6vw;
+    padding: 2.5vw;
+    z-index: 1;
+}
+
+.upcoming-events .events .event::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5vw;
+    height: 5vw;
+    background: linear-gradient(#E7CCCC, #EDE8DC);
+    z-index: -2;
+    filter: blur(10px);
+    transform: translate(-50%, -50%);
+    border-radius: 90px;
+}
+.upcoming-events .events .event::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5vw;
+    height: 5vw;
+    background: linear-gradient(#E7CCCC, #EDE8DC);
+    z-index: -2;
+    filter: blur(15px);
+    transform: translate(50%, -50%);
+    border-radius: 90px;
+}
+
+.upcoming-events .events .upcoming-left{
+    text-align: left;
+}
+
+.upcoming-events .events .upcoming-right{
+    text-align: right;
+    /* position: absolute;
+    right: 0; */
+
+}
+
+
+.upcoming-events .events .event h2{
+    color: rgb(87, 241, 87);
+    margin: 0.5vw 0;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.upcoming-events .events .event p{
+    color: #FFF1DB;
+    font-weight: 800;
+}
+
+
+
 
