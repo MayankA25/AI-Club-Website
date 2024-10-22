@@ -243,37 +243,16 @@ main .join-us{
     border: 2px solid rgba(255, 255, 255,0.4);
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(26px);
-    border-radius: 0.6vw;
+    border-radius: 1vw;
     padding: 2.5vw;
     z-index: 1;
 }
 
-.upcoming-events .events .event::before{
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5vw;
-    height: 5vw;
-    background: linear-gradient(#E7CCCC, #EDE8DC);
-    z-index: -2;
-    filter: blur(10px);
-    transform: translate(-50%, -50%);
-    border-radius: 90px;
+.upcoming-events .events .event:hover{
+    transform: scale(1.05);
 }
-.upcoming-events .events .event::after{
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 5vw;
-    height: 5vw;
-    background: linear-gradient(#E7CCCC, #EDE8DC);
-    z-index: -2;
-    filter: blur(15px);
-    transform: translate(50%, -50%);
-    border-radius: 90px;
-}
+
+
 
 .upcoming-events .events .upcoming-left{
     text-align: left;
@@ -300,5 +279,11 @@ main .join-us{
 }
 
 
-
-
+.upcoming-events .events .event img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3%;
+    /* height: 15%; */
+    transform: translate(-50%, -50%);
+}

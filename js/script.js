@@ -5,6 +5,7 @@ let loader = document.getElementsByClassName("loader")[0]
 let bars = document.getElementsByClassName("bar")
 let container = document.getElementsByClassName("container")[0]
 let upcomingEvents = document.getElementsByClassName("upcoming-events")[0]
+let footer = document.getElementsByTagName("footer")[0]
 
 let container2 = document.getElementsByClassName("container-2")[0]
 let animationDelay = 0.05
@@ -16,6 +17,7 @@ window.onload = ()=>{
     preloader.style.animation = "slideBar 1s ease 1.5s"
     container2.style.display = "none"
     upcomingEvents.style.display = "none"
+    footer.style.display = "none"
     setTimeout(()=>{
         preImg.style.animation = "none"
     }, 2000)
@@ -27,6 +29,7 @@ setTimeout(()=>{
     preImg.style.animation = "none"
     container2.style.display = "block"
     upcomingEvents.style.display = "block"
+    footer.style.display = "block"
 }, 2500)
 
 setTimeout(()=>{

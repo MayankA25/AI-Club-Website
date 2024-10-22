@@ -1,0 +1,52 @@
+footer{
+    background-color: black;
+    padding: 2vw 0;
+}
+
+footer .footer{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer img{
+    width: 25vw;
+}
+
+footer img:hover{
+    transform: rotate(2deg);
+    width: 26vw;
+}
+
+footer .footer .icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer .icons i{
+    font-size: larger;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+footer .footer .icons i:hover{
+    transform: scale(1.05);
+    color: white;
+}
+
+
+footer .footer .icons .insta:hover{
+    color: rgb(255, 0, 119);
+}
+
+footer .footer .icons .x:hover{
+    color: white;
+}
+
+footer .footer .icons .linkedin:hover{
+    color: rgb(64, 64, 248);
+}
