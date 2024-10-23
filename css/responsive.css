@@ -75,9 +75,9 @@
         font-size: 3.5vw;
     }
 
-    .preloader img{
+    /* .preloader img{
         width: 25vw;
-    }
+    } */
 }
 
 @media (width < 700px) {
@@ -147,9 +147,9 @@
         font-size: 3.75vw;
     }
 
-    .preloader img{
+    /* .preloader img{
         width: 30vw;
-    }
+    } */
 
 
 }
@@ -205,9 +205,9 @@
         font-size: 3.95vw;
     }
 
-    .preloader img{
+    /* .preloader img{
         width: 32vw;
-    }
+    } */
 
     
 }
@@ -274,9 +274,9 @@
         font-size: 4.15vw;
     }
 
-    .preloader img{
+    /* .preloader img{
         width: 34vw;
-    }
+    } */
 
 
     
