@@ -118,7 +118,7 @@ main .join-us{
     width: 45%;
     text-align: center;
     border: 2px solid rgba(255, 255, 255, 0.4);
-    border-radius: 15px;
+    border-radius: 1.5vw;
     padding: 1vw 1.5vw;
     background-color: rgba(255,255,255,0.1);
     /* margin: 0 2vw; */
@@ -269,7 +269,7 @@ main .join-us{
 
 .upcoming-events .events .event h2{
     color: rgb(87, 241, 87);
-    margin: 0.5vw 0;
+    margin: 0.5vw 0 1.4vw 0;
     font-weight: 900;
     text-decoration: underline;
     font-size: 2vw;

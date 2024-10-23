@@ -47,6 +47,7 @@
     display: flex;
     overflow-x: hidden;
     position: relative;
+    width: 100vw;
     height: 100vh;
     /* animation: slideBar 2s ease 1.5s; */
     background-color: black;
@@ -55,10 +56,10 @@
 
 .preloader img{
     width: 20vw;
-    /* height: 9vw; */
+    height: 12vw;
     position: absolute;
-    top: 41%;
-    left: 39%;
+    top: calc(50% - 6vw);
+    left: calc(50% - 10vw);
     animation: pumpLogo 1s linear infinite;
     /* color: #8DECB4; */
 }

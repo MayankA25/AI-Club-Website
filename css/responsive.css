@@ -10,10 +10,14 @@
 
 @media (width < 800px){
     .loader{
-        height: 70vh;
+        height: 65vh;
     }
     header{
         padding: 1.5vw 0;
+    }
+
+    main .intro{
+        top: 23%;
     }
 
     main .intro h1{
@@ -40,19 +44,77 @@
         font-size: 4vw;
     }
 
+    
+    .container-2 .timeline .event h1{
+        font-size: 3vw;
+    }
+    
+    .container-2 .timeline .event p{
+        font-size: 2.5vw;
+        
+    }
+    
     .upcoming-events h1{
         font-size: 4vw;
     }
+    .upcoming-events .events{
+        width: 80%;
+    }
+    .upcoming-events .events .event h2{
+        font-size: 3.5vw;
+    }
 
+    .upcoming-events .events .event p{
+        font-size: 2.5vw;
+    }
+    .upcoming-events .events .event img{
+        width: 5%;
+    }
+
+    footer .footer .icons i{
+        font-size: 3.5vw;
+    }
+
+    .preloader img{
+        width: 25vw;
+    }
 }
 
 @media (width < 700px) {
 
+    main .intro{
+        top: 15%;
+    }
+
+    main .intro h1{
+        font-size: 10vw;
+    }
+    main .intro h1 span{
+        font-size: 10vw;
+    }
+
+    main .intro h2{
+        font-size: 3vw;
+    }
+
+    main .intro .container span{
+        font-size: 7vw;
+    }
+
+    main .intro .desc{
+        font-size: 3vw;
+    }
+
+    .container-2 h2{
+        font-size: 6vw;
+    }
+
+
     .container-2 .timeline .event h1{
-        font-size: 2.5vw;
+        font-size: 3.75vw;
     }
     .container-2 .timeline .event p{
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
 
@@ -63,29 +125,183 @@
         font-size: 2vw;
     }
 
-    .container-2 .timeline .event img{
-        border-radius: 1.5vw;
+    .upcoming-events h1{
+        font-size: 5vw;
     }
+    .upcoming-events .events{
+        width: 85%;
+    }
+    .upcoming-events .events .event h2{
+        font-size: 3.75vw;
+    }
+
+    .upcoming-events .events .event p{
+        font-size: 2.75vw;
+    }
+
+    .upcoming-events .events .event img{
+        width: 7%;
+    }
+
+    footer .footer .icons i{
+        font-size: 3.75vw;
+    }
+
+    .preloader img{
+        width: 30vw;
+    }
+
+
 }
 
+@media (width < 600px) {
+    .loader{
+        height: 54vh;
+    }
+    main .intro{
+        top: 12%;
+    }
+
+    .container-2 h2{
+        font-size: 7vw;
+    }
+
+    .container-2 .timeline .event h1{
+        font-size: 4vw;
+    }
+    .container-2 .timeline .event p{
+        font-size: 3.25vw;
+    }
+
+    .upcoming-events h1{
+        font-size: 7vw;
+    }
+    .upcoming-events .events .event h2{
+        font-size: 2.5vw;
+    }
+    .upcoming-events .events .event p{
+        font-size: 2vw;
+    }
+
+    .upcoming-events h1{
+        font-size: 5vw;
+    }
+    .upcoming-events .events{
+        width: 87%;
+    }
+    .upcoming-events .events .event h2{
+        font-size: 3.95vw;
+    }
+
+    .upcoming-events .events .event p{
+        font-size: 2.95vw;
+    }
+
+    .upcoming-events .events .event img{
+        width: 6.5%;
+    }
+
+    footer .footer .icons i{
+        font-size: 3.95vw;
+    }
+
+    .preloader img{
+        width: 32vw;
+    }
+
+    
+}
 
 @media (width < 500px){
     .loader{
-        height: 65vh;
+        height: 52vh;
     }
+
     header nav img{
         width: 8vh;
+    }
+
+    main .intro{
+        top: 10%;
+    }
+
+    main .intro h1{
+        font-size: 11vw;
+    }
+    main .intro h1 span{
+        font-size: 11vw;
+    }
+
+    main .intro h2{
+        font-size: 4vw;
+    }
+
+    main .intro .container span{
+        font-size: 9vw;
+    }
+
+    main .intro .desc{
+        font-size: 4vw;
     }
 
     .btn{
         font-size: 1.5vh;
     }
 
+    
+
     .container-2 h2{
-        font-size: 4.5vw;
+        font-size: 8vw;
     }
 
+    
+
     .upcoming-events h1{
-        font-size: 4vw;
+        font-size: 8vw;
+    }
+    .upcoming-events .events{
+        width: 92%;
+    }
+    .upcoming-events .events .event h2{
+        font-size: 4.15vw;
+    }
+
+    .upcoming-events .events .event p{
+        font-size: 3.15vw;
+    }
+
+    footer .footer .icons i{
+        font-size: 4.15vw;
+    }
+
+    .preloader img{
+        width: 34vw;
+    }
+
+
+    
+    
+}
+
+
+@media (width<450px) {
+    .loader{
+        height: 49vh;
+    }
+    .container-2 .timeline .event img{
+        border-radius: 0.5vw;
+    }
+}
+
+
+@media (width<400px){
+    .loader{
+        height: 45vh;
+    }
+}
+
+@media (width<335px){
+    .loader{
+        height: 41vh;
     }
 }
