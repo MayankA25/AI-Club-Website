@@ -30,7 +30,7 @@ main {
 
 main .intro {
     position: relative;
-    top: 35%;
+    top: 30%;
     text-align: center;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -46,23 +46,23 @@ main .intro .desc{
 
 main .intro h1 {
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 main .intro h2{
     font-weight: 800;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
 }
 
 main .intro h1 span {
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 
 main .intro .container span {
     font-weight: 800;
-    font-size: 3.5vw;
+    font-size: 5vw;
 }
 
 main .join-us{
@@ -83,7 +83,7 @@ main .join-us{
     font-optical-sizing: auto;
 
     font-style: normal;
-    padding: 1vw 0;
+    padding: 1.5vw 0;
 }
 
 .container-2 h2{
@@ -145,11 +145,12 @@ main .join-us{
     color: rgb(87, 241, 87);
     margin: 1vw 0;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 1.75vw;
 }
 .container-2 .timeline .event p{
     color: #FFF1DB;
     font-weight: 700;
+    font-size: 1.5vw;
 }
 
 .right{
@@ -215,7 +216,7 @@ main .join-us{
     padding: 2vw 0;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-
+    /* padding: 0 2vw; */
     font-style: normal;
 }
 
@@ -271,11 +272,13 @@ main .join-us{
     margin: 0.5vw 0;
     font-weight: 900;
     text-decoration: underline;
+    font-size: 2vw;
 }
 
 .upcoming-events .events .event p{
     color: #FFF1DB;
     font-weight: 800;
+    font-size: 1.5vw;
 }
 
 

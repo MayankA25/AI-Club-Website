@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/typewriter.css" />
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/responcive.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animations.css">
   </head>
   <body>
     <div class="preloader">
@@ -21,7 +23,7 @@
 
     <header>
       <nav>
-        <img src="imgs/bashCraftLogo.png" alt="" />
+        <img class="header-img" src="imgs/bashCraftLogo.png" alt="" />
         <!-- <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#prev-events">Previous Events</a></li>
@@ -54,13 +56,13 @@
           The place to collaborate,create and push the boundaries of what's
           possible
         </h3>
-        <button class="btn join-us">Join Us Now &rarr;</button>
+        <button class="btn join-us" style="transition: all 0.5s;">Join Us Now &rarr;</button>
       </div>
     </main>
   </div>
 
     <div class="container-2" id="prev-events">
-      <h2>Previous Events</h2>
+      <h2 class="prev-events-heading">Previous Events</h2>
       <div class="timeline">
         <div class="event left">
           <h1>TechTalk with Arpit Bhayani</h1>
@@ -136,12 +138,12 @@
 
     <footer>
       <div class="footer">
-        <img src="imgs/bashCraftLogo.png" alt="">
+        <img data-aos="fade-right" data-aos-delay="200" src="imgs/bashCraftLogo.png" alt="">
         <div class="icons">
-          <a target="_blank" href="https://www.instagram.com/mayank_a_05?utm_source=qr&igsh=MW1qa2tsc2VjdTM1OQ=="><i class="fa-brands fa-instagram insta"></i></a>
-          </a><i class="fa-brands fa-x-twitter x"></i>
-          <a target="_blank" href="https://www.linkedin.com/in/mayank-arora-336256320/"><i class="fa-brands fa-linkedin linkedin"></i></a>
-          <a target="_blank" href="https://github.com/MayankA25"><i class="fa-brands fa-github github"></i></a>
+          <a data-aos="fade-up" data-aos-delay="200" target="_blank" href="https://www.instagram.com/mayank_a_05?utm_source=qr&igsh=MW1qa2tsc2VjdTM1OQ=="><i class="fa-brands fa-instagram insta"></i></a>
+          <a data-aos="fade-up" data-aos-delay="300" href=""><i class="fa-brands fa-x-twitter x"></i></a>
+          <a data-aos="fade-up" data-aos-delay="400" target="_blank" href="https://www.linkedin.com/in/mayank-arora-336256320/"><i class="fa-brands fa-linkedin linkedin"></i></a>
+          <a data-aos="fade-up" data-aos-delay="500" target="_blank" href="https://github.com/MayankA25"><i class="fa-brands fa-github github"></i></a>
         </div>
         
       </div>
@@ -149,7 +151,10 @@
   </body>
   <script defer src="js/script.js"></script>
   <script defer src="js/typewriter.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script defer src="js/animations.js"></script>
   <!-- <script src="js/loader.js"></script> -->
   <script src="https://kit.fontawesome.com/0a5c66c5f1.js" crossorigin="anonymous"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 </html>

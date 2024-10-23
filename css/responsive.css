@@ -1,0 +1,91 @@
+@media (width < 1100px) {
+    .loader{
+        height: 80vh;
+    }
+
+    header nav img{
+        width: 10vh;
+    }
+}
+
+@media (width < 800px){
+    .loader{
+        height: 70vh;
+    }
+    header{
+        padding: 1.5vw 0;
+    }
+
+    main .intro h1{
+        font-size: 7vw;
+    }
+    main .intro h1 span{
+        font-size: 7vw;
+    }
+
+    main .intro h2{
+        font-size: 2vw;
+    }
+
+    main .intro .container span{
+        font-size: 6vw;
+    }
+
+    main .intro .desc{
+        font-size: 2vw;
+    }
+
+
+    .container-2 h2{
+        font-size: 4vw;
+    }
+
+    .upcoming-events h1{
+        font-size: 4vw;
+    }
+
+}
+
+@media (width < 700px) {
+
+    .container-2 .timeline .event h1{
+        font-size: 2.5vw;
+    }
+    .container-2 .timeline .event p{
+        font-size: 2vw;
+    }
+
+
+    .upcoming-events .events .event h2{
+        font-size: 2.5vw;
+    }
+    .upcoming-events .events .event p{
+        font-size: 2vw;
+    }
+
+    .container-2 .timeline .event img{
+        border-radius: 1.5vw;
+    }
+}
+
+
+@media (width < 500px){
+    .loader{
+        height: 65vh;
+    }
+    header nav img{
+        width: 8vh;
+    }
+
+    .btn{
+        font-size: 1.5vh;
+    }
+
+    .container-2 h2{
+        font-size: 4.5vw;
+    }
+
+    .upcoming-events h1{
+        font-size: 4vw;
+    }
+}

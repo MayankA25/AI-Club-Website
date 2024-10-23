@@ -13,6 +13,7 @@ let animationDelay = 0.05;
 let totalTime = 0;
 
 window.onload = () => {
+    body.style.overflowX = "hidden"
   container.style.display = "none";
   // body.style.overflow = "hidden"
   container2.style.display = "none";
@@ -35,6 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
     container2.style.display = "block";
     upcomingEvents.style.display = "block";
     footer.style.display = "block";
+    let script = document.createElement("script")
+    script.innerHTML = "AOS.init()"
+    body.appendChild(script)
   }, 2500);
 
   setTimeout(() => {
