@@ -55,11 +55,11 @@
 }
 
 .preloader img{
-    width: 20vw;
-    height: 9vw;
+    width: 15vw;
+    /* height: 9vw; */
     position: absolute;
-    top: 41%;
-    left: 39%;
+    top: 39%;
+    left: 41%;
     animation: pumpLogo 1s linear infinite;
     /* color: #8DECB4; */
 }

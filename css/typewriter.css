@@ -30,7 +30,7 @@ main {
 
 main .intro {
     position: relative;
-    top: 30%;
+    top: 23%;
     text-align: center;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -69,13 +69,20 @@ main .join-us{
     margin: 4vw 0;
 }
 
+main .intro .desc{
+    font-size: 2vw;
+}
+
 
 
 
 
 .container-2{
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,22,22,1) 0%, rgba(0,0,0,1) 100%);
+    /* background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,22,22,1) 0%, rgba(0,0,0,1) 100%); */
+    background: rgb(59,30,84);
+    background: linear-gradient(180deg, rgba(59,30,84,1) 0%, rgba(0,0,0,1) 100%);
+
     /* height: 100vh; */
     width: 100vw;
     text-align: center;
@@ -91,12 +98,21 @@ main .join-us{
     padding: 5vw 0 0 0;
     cursor: default;
     transition: 0.25s all;
+    margin: 2vw 0;
 }
 .container-2 h2:hover{
     color: #F2E5BF;
     font-size: 3.5vw;
     transform: rotate(2deg);
 }
+
+
+.container-2 .slideshow{
+    width: 50%;
+    margin: 2vw auto;
+
+}
+
 .container-2 .timeline{
     /* margin: 4vw 0; */
     width: 92%;
@@ -268,7 +284,7 @@ main .join-us{
 
 
 .upcoming-events .events .event h2{
-    color: rgb(87, 241, 87);
+    color: #EE66A6;
     margin: 0.5vw 0 1.4vw 0;
     font-weight: 900;
     text-decoration: underline;

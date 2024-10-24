@@ -55,6 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
     loader.style.transition = "none";
     // loader.style.height = "100vh"
     // bars.style.height = "100%"
-    loader.style.backgroundColor = "#001616";
+    loader.style.backgroundColor = "#3B1E54";
   }, 2700);
 });

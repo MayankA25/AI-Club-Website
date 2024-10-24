@@ -3,16 +3,16 @@
         height: 80vh;
     }
 
-    header nav img{
-        width: 10vh;
+    .header nav img{
+        width: 5vh;
     }
 }
 
 @media (width < 800px){
     .loader{
-        height: 65vh;
+        height: 77vh;
     }
-    header{
+    .header{
         padding: 1.5vw 0;
     }
 
@@ -156,7 +156,7 @@
 
 @media (width < 600px) {
     .loader{
-        height: 54vh;
+        height: 64vh;
     }
     main .intro{
         top: 12%;
@@ -214,11 +214,11 @@
 
 @media (width < 500px){
     .loader{
-        height: 52vh;
+        height: 65vh;
     }
 
-    header nav img{
-        width: 8vh;
+    .header nav img{
+        width: 5vh;
     }
 
     main .intro{
@@ -241,7 +241,7 @@
     }
 
     main .intro .desc{
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
 
     .btn{
@@ -286,7 +286,7 @@
 
 @media (width<450px) {
     .loader{
-        height: 49vh;
+        height: 57vh;
     }
     .container-2 .timeline .event img{
         border-radius: 0.5vw;
@@ -296,12 +296,12 @@
 
 @media (width<400px){
     .loader{
-        height: 45vh;
+        height: 53vh;
     }
 }
 
 @media (width<335px){
     .loader{
-        height: 41vh;
+        height: 48vh;
     }
 }
